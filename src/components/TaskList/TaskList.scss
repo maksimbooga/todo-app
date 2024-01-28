@@ -1,0 +1,23 @@
+.task-list-container {
+  display: flex;
+  gap: 20px;
+}
+
+.column-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-left: 5px;
+  width: 170px;
+  height: 45px;
+  background: rgb(0 0 0 / 0.05);
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
